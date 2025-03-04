@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html> lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Caninos y felinos</title>
+     <link rel="stylesheet" href="../principal/estilos principales/Productos.css">
+</head>
+<body>
+    <div id="header-container"></div>
+
+    <section class="Banner-2">
+      <div class="contenido">
+       <div class="titulo">
+         <h2>Nuestros Productos</h2>
+      </div>
+    </section>
+
+    <div class="sesiones Nuevas">
+        <div id="imagenes">
+            <imagenes src="../imagenes/alimento-fondo.png" alt="Alimento">
+            <h3>Alimento Completo</h3>
+            <p>Diseñado con los Componentes Nutricionalesesenciales para
+                mantener a sus mascotas sanos, con buena salud intestinal, 
+                pelo sano y brillante.</p>
+          </div>
+        <div class="imegenes">
+            <imagenes src="../imagenes/juguetes-fondo.png" alt="Accesorios">
+                <h3>Juguetes Comederos</h3>
+                <p>Juguetes y accesorios para tu mascota, todo lo que necesitas 
+                    para consentirl@s.</p>
+              </div>
+        <div class="imegenes">
+                <imagenes src="../imagenes/baño-fondo.png" alt="Cuidado">
+                    <h3>Lina de cuidado capilar para todas las razas</h3>
+                    <p>Estos productos nos ayudan en su limpieza ya que controlan pulgas,
+                       garrapatas y diversos 
+                       agentes que pueden complicar las salud de nuestras mascota.</p>
+                  </div>
+        <div class="imegenes">
+                <imagenes src="../imagenes/Antiparacitario-fondo.png" alt="Medicamentos">
+                <h3>Lina de cuidado para todas las razas</h3>
+                <p>Es un desparasitante para perros grandes 
+                   que trata las infecciones por nemátodos, cestodos y protozoos.</p>
+     </div>
+                   
+    </div>                 
+    
+    <div id="footer-container"></div>
+      
+    <script>
+        fetch('../Header/header.html')
+        .then(response => response.text())
+        .then(data => {
+             document.getElementById('header-container').innerHTML=data;
+        }); 
+        </script>
+           <script>
+               fetch('../Footer/footer.html')
+        .then(response => response.text())
+        .then(data => {
+             document.getElementById('footer-container').innerHTML=data;
+        }); 
+        </script>
+        
+
+ </body>
+ 
+ </html>

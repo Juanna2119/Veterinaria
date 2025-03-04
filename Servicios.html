@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html> lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Caninos y felinos</title>
+     <link rel="stylesheet" href="../principal/estilos principales/servicios.css">
+</head>
+<body>
+    <div id="header-container"></div>
+    <section class="servicios">
+      <div class="contenedor">
+       <div class="titulo">
+         <h2>Nuestros Servicios</h2>
+      </div>
+      <div id="imagenes">
+        <figure>
+            <imagenes id "gato2" src="../imagenes/servicio1-fondo.png" alt="serviciosveterinarios">
+             <figcaption>
+              Clinica Veterinaria
+             </figcaption>
+            </figure>
+            <figure>
+              <imagenes id "Perros" src="../imagenes/servicio2-fondo.png" alt="serviciosveterinarios">
+               <figcaption>
+                Aseo de mascotas
+               </figcaption>
+              </figure>
+              <figure>
+                <imagenes id "Perros" src="../imagenes/servicio3-fondo.png" alt="serviciosveterinarios">
+                 <figcaption>
+                  Colegio para mascotas
+                 </figcaption>
+                </figure>
+                <figure>
+                  <imagenes id "Perros" src="../imagenes/servicio4-fondo.png" alt="serviciosveterinarios">
+                   <figcaption>
+                    Hospedaje
+                   </figcaption>
+                  </figure>
+                  <figure>
+                    <imagenes id "Perros" src="../imagenes/servicio5-fondo.png" alt="serviciosveterinarios">
+                     <figcaption>
+                      Guarderia para mascotas
+                     </figcaption>
+                    </figure>
+             
+             </div>
+              <div class="texto-contenido">
+                    <p>En <b>Caninos y Felinos</b>nos esforzamos y disfrutamos al maximo servirte,
+                    contamos con los servicios y valores agregados que necesits tu y tu mascota
+                    disfruta con tranquilidad los servicios que ofrecemos a continucion y has parte
+                    de nuestra familia <b>Caninos y Felinos</p>
+              </div>
+          </div>
+    </section>
+
+    <div id="footer-container"></div>
+
+    <script>
+         fetch('../Header-header.html')
+              .then(response =>response.text())
+              .then(data =>{
+                    document.getElementById('header-container').innerHTML = data;
+              });
+    </script>
+    <script>
+         fetch('../Footer =>footer.html')
+           .then(Response =>response.text())
+           .then(data =>{
+                 document.getElementById('header-container').innerHTML = data;
+           });
+    </script>
+ </body>
+
+ </html>

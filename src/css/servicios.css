@@ -1,0 +1,35 @@
+.subContainer {
+    width: 100%;
+    padding: 5px;
+    background-color: #96d9aa;
+    border-radius: 5px;
+}
+
+.contenedor .imagen {
+    width: 160px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contenedor {
+    display: inline-block;
+    width: 65%;
+}
+
+.subContainer .contenedorDer {
+    width: 28%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 13vh;
+  
+}
+
+.textoserv {
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+.titulo{
+    text-align: center;
+    color: #0caa53;
+    font-size: 20px;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Caninos y felinos</title>
+      <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+      <div id="header-container"></div>
+
+      <section class="Banner-1">
+            <div class="contenido_perro">
+                  <div class="contenido"></div>
+                  <h2>Cuidado y Educacion para su mascota</h2>
+                  <p>Contamos con el personal adecuado para el cuidado de las mascotas, medicina preventiva, la cual
+                        engloba a la vacunación, el control de parásitos, la nutrición, higiene y visitas rutinarias,
+                        tanto en cachorros como en adultos</p>
+                  <div>
+                        <img class="img contenido_perro" src="imagenes/Gato1.jpg">
+                  </div>
+      </section>
+      <section class="Banner-2">
+            <div class="contenido">
+                  <h2>Salir de viaje con tu mascota</h2>
+                  <P> Guardería canina urbana 100% libre de jaulas, con juegos dirigidos, paseos al parque y cuidado de
+                        expertos.</P>
+
+            </div>
+
+            <div class="titulo-from">
+                  <h3>Solicitar citas medicas</h3>
+            </div>
+            <div class="Formulario">
+                  <form action="/Solicitud/Cita " method="post">
+                        <div class="Campo">
+                              <label for="nombreMascota">Nombre de tu mascota:</label>
+                              <input type="text" id="nombreMascota" name="nombreMascota">
+                        </div>
+                        <div class="Campo">
+                              <label for="razaMascota">Raza de tu mascota:</label>
+                              <input type="text" id="razaMascota" name="razaMascota">
+                        </div>
+                        <div class="Campo">
+                              <label for="edadMascota">Edad de tu mascota:</label>
+                              <input type="text" id="edadMascota" name="edadMascota">
+                        </div>
+                        <div class="Campo">
+                              <label for="horaCita">Hora de la Cita:</label>
+                              <input type="text" id="horaCita" name="horaCita">
+                        </div>
+                        <div class="Campo">
+                              <label for="fechaCita">Fecha de la Cita:</label>
+                              <input type="text" id="fechaCita" name="fechaCita">
+                        </div>
+                        <div class="Campo">
+                              <label for="NonbreDueno">Nombre del Dueño:</label>
+                              <input type="text" id="NonbreDueno" name="NonbreDueno">
+                        </div>
+                        <button>Solicitar</button>
+                  </form>
+            </div>
+            <div id="footer-container"></div>
+            <script>
+                  fetch('..Header/header.html')
+                        .then(response => response.text())
+                        .then(data => {
+                              document.getElementById('header_Container').innerHTML = data;
+                        })
+            </script>
+            <script>
+                  fetch('..Footer/footer.html')
+                        .then(response => response.text())
+                        .then(data => {
+                              document.getElementById('footer_Container').innerHTML = data;
+
+                        });
+
+            </script>
+
+      </section>
+
+      </div>
+
+      </section>
+
+</body>
+
+</html>
