@@ -2,7 +2,7 @@
     <div class="ContainerGeneral">
         <div class="subcontinerIzq">
             <div class="baner2">
-                Cuidados y educacion para su perro <br>
+                Cuidados y Educacion para su Mascota <br>
                 <div class="textocep">
                     <p>Contamos con el personal adecuado para el cuidado de las mascotas, medicina preventiva, la cual
                         engloba a la vacunación, el control de parásitos, la nutrición, higiene y visitas rutinarias,
@@ -15,7 +15,7 @@
             </div>
 
             <div class="baner2">
-                Salir de viaje con tu mascota <br>
+                Salir de viaje con su mascota <br>
                 <div class="textocep">
                     <P> Guardería canina urbana 100% libre de jaulas, con juegos dirigidos, paseos al parque y cuidado
                         de
@@ -27,10 +27,36 @@
             </div>
         </div>
         <div class="subcontinerDer">
-            <div class="tabla">
+            <div class="formulario">
                 Solicitar Citas Medicas<br>
-                <div class="textoinfo">
-
+                <div class="campo">
+                    <form action="/" class="soicitudcita" method="post">
+                        <div class="campo">
+                            <label class="lbl">Nombre de la Mascota:</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="campo">
+                            <label class="lbl">Raza de la Mascota:</label>
+                            <input type="text" id="raza" name="raza" required>
+                        </div>
+                        <div class="campo">
+                            <label class="lbl">Edad de la Mascota:</label>
+                            <input type="number" id="edad" name="edad" required>
+                        </div>
+                        <div class="campo">
+                            <label class="lbl">Fecha de la cita:</label>
+                            <input type="date" id="fecha" name="fecha">
+                        </div>
+                        <div class="campo">
+                            <label class="lbl">Hora de la Cita:</label>
+                            <input type="time" id="hora" name="hora">
+                        </div>
+                        <div class="campo">
+                            <label class="lbl">Nombre del Dueño</label>
+                            <input type="text" id="dueno" name="dueno">
+                        </div>
+                        <button type="submit">Solicitar</button>
+                    </form>
                 </div>
             </div>
         </div>
