@@ -1,11 +1,11 @@
-header{
+header {
     width: 100%;
     height: 26vh;
     padding: 0;
     display: block;
 }
 
-.banner{
+.banner {
     background-color: #e2f8c5;
     width: 90%;
     margin: auto;
@@ -17,13 +17,13 @@ header{
     font-weight: bold;
 }
 
-nav{
+nav {
     width: 90%;
     margin: auto;
     background-color: #3db73d;
 }
 
-nav ul li{
+nav ul li {
     display: inline-block;
     width: 10%;
     height: 5vh;
@@ -34,29 +34,29 @@ nav ul li{
     transition: background-color 1s ease 0s;
 }
 
-nav ul li:hover{
+nav ul li:hover {
     background-color: rgb(181, 214, 214);
     color: black;
     cursor: pointer;
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
     color: #ffffff;
 }
 
-nav ul li:hover a{
+nav ul li:hover a {
     color: #000000;
 }
 
-footer{
+footer {
     width: 100%;
     display: block;
-    height: 10vh;    
+    height: 10vh;
     bottom: 0;
 }
 
-footer .contentfooter{
+footer .contentfooter {
     background-color: #3db73d;
     width: 90%;
     margin-left: 5%;
@@ -66,7 +66,7 @@ footer .contentfooter{
     font-weight: bold;
 }
 
-.ContainerGeneral{
+.ContainerGeneral {
     width: 86%;
     margin: auto;
     border-left: 1px solid #7c7c7c;
@@ -76,45 +76,49 @@ footer .contentfooter{
     padding: 2%;
 }
 
-.subcontinerIzq{
+.subcontinerIzq {
     width: 50%;
     display: inline-block;
+    min-height: 30vh;
+    margin-top: 2vh;
+    border-radius: 10px;
 }
 
-.baner2{
+.baner2 {
     font-size: 30px;
     color: #110101;
     margin-top: 25px;
     padding: 5px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #dce4cd;
+    background-color: #c3ecbf;
     width: 100%;
     border-radius: 15px;
 }
 
-.textocep{
+.textocep {
     width: 60%;
-   text-align: justify;
-   color: hsl(300, 3%, 6%);
-   display: inline-block;
-   vertical-align: top;
-   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   font-size: 0.5em;
+    text-align: justify;
+    color: hsl(300, 3%, 6%);
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.5em;
 }
 
-.imagen{
+.imagen {
     width: 30%;
     margin-left: 5%;
     min-height: 100px;
     display: inline-block;
 }
 
-.imagen img{
+.imagen img {
     width: 100%;
     height: 130px;
+    border-radius: 15px;
 }
 
-.textoinfo{
+.textoinfo {
     background-color: #e3e3e3;
     width: 90%;
     margin: auto;
@@ -126,7 +130,7 @@ footer .contentfooter{
     font-weight: bold;
 }
 
-.subcontinerDer{
+.subcontinerDer {
     width: 45%;
     display: inline-block;
     vertical-align: top;
@@ -134,7 +138,81 @@ footer .contentfooter{
     text-align: center;
 }
 
-.tabla{
+.tabla {
     margin: auto;
-   
+    background-color: #000000;
 }
+
+.soicitudcita{
+    border: 1px solid #7c7c7c;
+    border-radius: 10px;
+    padding-top: 3vh;
+}
+
+.campo{
+    text-align: left;
+    height: 6vh;
+    margin-top: 0%;
+}
+
+.campo .lbl{
+    width: 40% !important;
+    margin-left: 5%;
+    height: 4vh !important;
+    margin-top: 4vh;
+}
+
+.campo input[type="text"]
+{
+    width: 45%;
+    margin-right: 5%;
+    height: 4vh;
+    float: right;
+    border-top-right-radius: 10px;
+}
+
+button{
+    text-align: center;
+    width: 100%;
+    background-color: rgb(189, 229, 166);
+    color: #000000;
+    height: 4vh;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 10px;
+}
+
+.campo input[type="date"]
+{
+    width: 45%;
+    margin-right: 5%;
+    height: 4vh;
+    float: right;
+    border-top-right-radius: 10px;
+}
+
+.campo input[type="time"]
+{
+    width: 45%;
+    margin-right: 5%;
+    height: 4vh;
+    float: right;
+    border-top-right-radius: 10px;
+}
+
+.campo input[type="number"]
+{
+    width: 45%;
+    margin-right: 5%;
+    height: 4vh;
+    float: right;
+    border-top-right-radius: 10px;
+    
+}
+
+.containerIndex{
+    background-color: #c3ecbf;
+    padding: 1%;
+    border-radius: 10px;
+}
+
