@@ -14,7 +14,15 @@ header {
     margin-bottom: -16px;
     text-align: center;
     font-size: 50px;
-    font-weight: bold;
+    font-weight: bold;    
+}
+
+.banner .position{
+    transition: all 1s ease 0s;
+}
+
+.banner .position:hover{
+    margin-left: 30%;
 }
 
 nav {
