@@ -25,6 +25,7 @@
     height: 150px;
     margin-right: 25px;
     border-radius: 20px;
+    margin-top: 7%;
 }
 .subcontpromo{
     width: 100%;
@@ -42,6 +43,7 @@
 }
 .subcontpromo .imagen img{
     border-radius: 10px;
+    background-color: #ffffff;
 }
 .subcontpromo .imagen img figcaption{
     text-align: center;
