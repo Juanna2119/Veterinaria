@@ -18,4 +18,4 @@ app.use(express.static(join(__dirname, 'css')))
 
 app.use(express.static(join(__dirname, 'img')))
 
-app.listen(4880)
+app.listen(process.env.PORT || 4880)
